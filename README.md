@@ -21,12 +21,12 @@
 
 ### How to launch the application?
 #### Windows (7, 8, 10)
-1. Download the "[bitcontrol-windows.exe](https://github.com/BitcontrolApp/bitcontrol/releases/download/1.1/bitcontrol-windows.exe)" binary file to your PC;
+1. Download the "[**bitcontrol-windows.exe**](https://github.com/BitcontrolApp/bitcontrol/releases/download/1.1/bitcontrol-windows.exe)" binary file to your PC;
 2. Run the application and permit the firewall to access the network;
 3. The application interface is opened using any browser via the following address: [http://localhost:8087](http://localhost:8087).
 
 #### MacOS (With processors Apple M1, Intel AMD)
-1. Download the "[bitcontrol-macos](https://github.com/BitcontrolApp/bitcontrol/releases/download/1.1/bitcontrol-macos)" binary file to your PC;
+1. Download the "[**bitcontrol-macos**](https://github.com/BitcontrolApp/bitcontrol/releases/download/1.1/bitcontrol-macos)" binary file to your PC;
 2. Make a file executable - `chmod +x bitcontrol-macos`;
 3. Launch the application (by holding down the _Control_ key to permit the program usage without downloading from the App Store);
 4. The application interface is opened using any browser via the following address: [http://localhost:8087](http://localhost:8087).
@@ -34,7 +34,7 @@
 Currently, the application has not been added to the official Mac App Store, so when you first start it, the following message may appear: _Application "bitcontrol-macos" cannot be opened because its author is an unknown developer._ You can open the application by pressing and holding the _Control_ key, clicking the application, then picking out the “Open” button from the context menu, and after that clicking on the “Open” button from the appeared dialog box.
 
 #### Linux (Ubuntu, Fedora, Debian, CentOS)
-1. Download the "[bitcontrol-linux](https://github.com/BitcontrolApp/bitcontrol/releases/download/1.1/bitcontrol-linux)" binary file to your PC or your web-server;
+1. Download the "[**bitcontrol-linux**](https://github.com/BitcontrolApp/bitcontrol/releases/download/1.1/bitcontrol-linux)" binary file to your PC or your web-server;
 2. Make a file executable - `chmod +x bitcontrol-linux`;
 3. Run in the terminal using the following command - `./bitcontrol-linux -username admin -password qwerta`;
 4. The application interface is opened using any browser via the following address: [http://localhost:8087](http://localhost:8087) or http://IP_web-server:8087 if you launched the application on a web server.

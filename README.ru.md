@@ -103,7 +103,7 @@ BitControl.App умеет работать с SQLite (по умолчанию) �
 
 Например, чтобы запустить приложение с поддержкой MySQL, с базой данных, например, "mydatabase", пользователем "mydbuser" и паролем "mydbpass" используйте команду:
 
-`./bitcontrol-linux -dbtype mysql -dbname mydatabase -dbuser mydbuser -dbpass mydbpass`
+`./bitcontrol-linux -dbtype mysql -dbname mydatabase -dbuser mydbuser -dbpwd mydbpass`
 
 ### Какие параметры можно передавать при запуске?
 `-username` логин для Basic аутентификации
@@ -116,7 +116,7 @@ BitControl.App умеет работать с SQLite (по умолчанию) �
 
 `-dbuser` пользователь базы данных (по умолчанию: root)
 
-`-dbpass` пароль базы данных
+`-dbpwd` пароль базы данных
 
 ### Как автоматически запускать приложение при старте системы Linux?
 Для автозагрузки приложения используйте **Systemd** - демон автозагрузки служб в Linux.
@@ -128,7 +128,7 @@ Description="BitControl.App Service"
 [Service]
 Restart=always
 RestartSec=5
-ExecStart=/<path-to-app>/bitcontrol-linux -username superadmin -password superpass -dbtype mysql -dbname mydatabase -dbuser mydbuser -dbpass mydbpass
+ExecStart=/<path-to-app>/bitcontrol-linux -username superadmin -password superpass -dbtype mysql -dbname mydatabase -dbuser mydbuser -dbpwd mydbpass
 
 [Install]
 WantedBy=multi-user.target

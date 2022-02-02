@@ -102,7 +102,7 @@ BitControl.App is able to operate with SQLite (by default) and MySQL. To use MyS
 
 For instance, to run a MySQL-enabled application with a database such as "mydatabase", user "mydbuser" and password "mydbpass", use the following command:
 
-`./bitcontrol-linux -dbtype mysql -dbname mydatabase -dbuser mydbuser -dbpass mydbpass`
+`./bitcontrol-linux -dbtype mysql -dbname mydatabase -dbuser mydbuser -dbpwd mydbpass`
 
 ### What parameters can be passed when launching?
 `-username` login for Basic authentication
@@ -115,7 +115,7 @@ For instance, to run a MySQL-enabled application with a database such as "mydata
 
 `-dbuser` database user (default: root)
 
-`-dbpass` database password
+`-dbpwd` database password
 
 ### How do I automatically launch an application on a Linux system?
 To autoload an application, use **Systemd** - a service autoload assistant in Linux.
@@ -128,7 +128,7 @@ Description="BitControl.App Service"
 [Service]
 Restart=always
 RestartSec=5
-ExecStart=/<path-to-app>/bitcontrol-linux -username superadmin -password superpass -dbtype mysql -dbname mydatabase -dbuser mydbuser -dbpass mydbpass
+ExecStart=/<path-to-app>/bitcontrol-linux -username superadmin -password superpass -dbtype mysql -dbname mydatabase -dbuser mydbuser -dbpwd mydbpass
 
 [Install]
 WantedBy=multi-user.target

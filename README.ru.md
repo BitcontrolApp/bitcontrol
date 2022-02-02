@@ -1,6 +1,6 @@
 # BitControl.App
 
-*Домашняя страница: [`https://ru.bitcontrol.app`](https://bitcontrol.app)*
+*Домашняя страница: [`https://bitcontrol.app/ru.html`](https://bitcontrol.app)*
 
 *Read this in other languages: [English](README.md), [Русский](README.ru.md).*
 

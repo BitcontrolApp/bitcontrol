@@ -20,12 +20,12 @@
 
 ### Как запускать приложение?
 #### Windows (7, 8, 10)
-1. Скачайте бинарный файл "[bitcontrol-windows.exe](https://github.com/BitcontrolApp/bitcontrol/releases/download/1.1/bitcontrol-windows.exe)" на персональный компьютер;
+1. Скачайте бинарный файл "[**bitcontrol-windows.exe**](https://github.com/BitcontrolApp/bitcontrol/releases/download/1.1/bitcontrol-windows.exe)" на персональный компьютер;
 2. Запустите приложение и разрешите брандмауэру доступ к сети;
 3. Интерфейс приложения открывается через любой браузер по адресу: [http://localhost:8087](http://localhost:8087).
 
 #### MacOS (с процессором Apple M1, Intel AMD)
-1. Скачайте бинарный файл "[bitcontrol-macos](https://github.com/BitcontrolApp/bitcontrol/releases/download/1.1/bitcontrol-macos)" на персональный компьютер;
+1. Скачайте бинарный файл "[**bitcontrol-macos**](https://github.com/BitcontrolApp/bitcontrol/releases/download/1.1/bitcontrol-macos)" на персональный компьютер;
 2. Сделайте файл исполняемым - `chmod +x bitcontrol-macos`;
 3. Запустите приложение (удерживая клавишу _Control_ чтобы разрешить использование программы, загруженной не из App Store);
 4. Интерфейс приложения открывается через любой браузер по адресу: [http://localhost:8087](http://localhost:8087).
@@ -33,7 +33,7 @@
 На данный момент приложение не добавлено в официальный Mac App Store, по этому при первом запуске может возникать сообщение: _Приложение «bitcontrol-macos» нельзя открыть, так как его автор является неустановленным разработчиком._ Открыть приложение можно нажав и удерживая клавишу _Control_, щёлкните приложение, после этого выберите «Открыть» в контекстном меню, а затем нажмите «Открыть» в появившемся диалоговом окне.
 
 #### Linux (Ubuntu, Fedora, Debian, CentOS)
-1. Скачайте бинарный файл "[bitcontrol-linux](https://github.com/BitcontrolApp/bitcontrol/releases/download/1.1/bitcontrol-linux)" на персональный компьютер или на свой web-сервер;
+1. Скачайте бинарный файл "[**bitcontrol-linux**](https://github.com/BitcontrolApp/bitcontrol/releases/download/1.1/bitcontrol-linux)" на персональный компьютер или на свой web-сервер;
 2. Сделайте файл исполняемым - `chmod +x bitcontrol-linux`;
 3. Запустите приложение - `./bitcontrol-linux -username admin -password qwerta`;
 4. Интерфейс приложения открывается через любой браузер по адресу: [http://localhost:8087](http://localhost:8087) или http://IP_вашего_сервера:8087 если запустили приложение на web-сервере.
